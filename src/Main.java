@@ -12,6 +12,7 @@ public class Main {
 //        Создать информационную систему позволяющую работать с сотрудниками некой компании
 //        \ студентами вуза \ учениками школы
 
-        Teacher Ivan = new Teacher();
+        Teacher Ivan = new Teacher("Ivan",34);
+        Ivan.printSkill();
     }
 }

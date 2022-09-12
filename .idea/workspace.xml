@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f47c6a5-47a5-475f-87df-dc047d893f81" name="Changes" comment="Добавления двух классов Учитель и студент">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3f47c6a5-47a5-475f-87df-dc047d893f81" name="Changes" comment="Добавления Конструктора для класса Person">
       <change beforePath="$PROJECT_DIR$/src/Entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Skill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -46,6 +45,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/777/IdeaProjects/OOP4Dz",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662991513703</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавления Конструктора для класса Person">
+      <created>1662994369158</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662994369158</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +114,7 @@
     <MESSAGE value="Создания абстрактоного класса  Человек" />
     <MESSAGE value="Создания интерфейса умений" />
     <MESSAGE value="Добавления двух классов Учитель и студент" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавления двух классов Учитель и студент" />
+    <MESSAGE value="Добавления Конструктора для класса Person" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавления Конструктора для класса Person" />
   </component>
 </project>
