@@ -19,14 +19,17 @@ public class ClassLesson {
     }
 
     public void AddClassLessonStudent(Student student) {
-        students.add(student);
+        this.students.add(student);
     }
+
     public void DellClassLessonStudent(Student student) {
-        students.remove(student);
+        this.students.remove(student);
     }
+
     public void UpdateClassLessonTeacher(Teacher teacher) {
-        this.teacher= teacher;
+        this.teacher = teacher;
     }
+
     public void DellClassLessonTeacher(Teacher teacher) {
         students.remove(teacher);
     }
@@ -54,4 +57,6 @@ public class ClassLesson {
     public void setStudents(List<Student> students) {
         this.students = students;
     }
+
+
 }

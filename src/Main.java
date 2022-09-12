@@ -34,15 +34,24 @@ public class Main {
         System.out.println("____________________Учетиля_______________________");
         Print.PrintListTeacher(teacherList);
 
-        Student _dimaS = new Student("Dima",15);
-        Student _olegS = new Student("Oleg",15);
-        Student _denS = new Student("Den",15);
-        Student _ivan = new Student("Ivan",15);
+        Student _dimaS = new Student("_Dima",15);
+        Student _olegS = new Student("_Oleg",15);
+        Student _denS = new Student("_Den",15);
+        Student _ivan = new Student("_Ivan",15);
+        Student _olga = new Student("_Olga",15);
 
         List<Student> studentList = Arrays.asList(_dimaS,_olegS,_denS,_ivan);
         System.out.println("____________________Студенты_______________________");
         Print.PrintListStudent(studentList);
 
+        System.out.println("___________________________________________________");
         ClassLesson classMath = new ClassLesson(Ivan,Lesson.Math,studentList);
+        Print.PrintClassLesson(classMath);
+        System.out.println("___________________________________________________");
+
+
+        classMath.AddClassLessonStudent(_olga);
+        classMath.DellClassLessonStudent(_ivan);
+        Print.PrintClassLesson(classMath);
     }
 }
