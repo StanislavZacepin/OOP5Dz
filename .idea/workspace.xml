@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f47c6a5-47a5-475f-87df-dc047d893f81" name="Changes" comment="Добавления Конструктора для класса Person">
+    <list default="true" id="3f47c6a5-47a5-475f-87df-dc047d893f81" name="Changes" comment="Рефакторинг кода">
+      <change afterPath="$PROJECT_DIR$/src/Entity/Lesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Skill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -21,6 +23,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -95,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662994369158</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Рефакторинг кода">
+      <created>1662995187822</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662995187822</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +125,7 @@
     <MESSAGE value="Создания интерфейса умений" />
     <MESSAGE value="Добавления двух классов Учитель и студент" />
     <MESSAGE value="Добавления Конструктора для класса Person" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавления Конструктора для класса Person" />
+    <MESSAGE value="Рефакторинг кода" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг кода" />
   </component>
 </project>

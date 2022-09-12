@@ -2,11 +2,8 @@ package Entity;
 
 import java.util.List;
 
-public interface Skill<T> {
+public interface Skill {
 
-      default void printSkill(List<T> skill){
-
-           System.out.println(skill);
-     }
+       void printSkill();
 
 }
