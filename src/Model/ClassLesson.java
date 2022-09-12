@@ -1,6 +1,7 @@
 package Model;
 
 import Entity.Lesson;
+import Entity.Person;
 
 import java.util.List;
 

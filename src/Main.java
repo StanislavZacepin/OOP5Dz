@@ -30,18 +30,18 @@ public class Main {
 
         Teacher Sergey = new Teacher("Sergey",34,Lesson.Russian );
 
-        List<Person> teacherList = Arrays.asList(Ivan,Den,Oleg,Dima,Sergey);
+        List<Teacher> teacherList = Arrays.asList(Ivan,Den,Oleg,Dima,Sergey);
         System.out.println("____________________Учетиля_______________________");
-        Print.PrintList(teacherList);
+        Print.PrintListTeacher(teacherList);
 
         Student _dimaS = new Student("Dima",15);
         Student _olegS = new Student("Oleg",15);
         Student _denS = new Student("Den",15);
         Student _ivan = new Student("Ivan",15);
 
-        List<Person> studentList = Arrays.asList(_dimaS,_olegS,_denS,_ivan);
+        List<Student> studentList = Arrays.asList(_dimaS,_olegS,_denS,_ivan);
         System.out.println("____________________Студенты_______________________");
-        Print.PrintList(studentList);
+        Print.PrintListStudent(studentList);
 
         ClassLesson classMath = new ClassLesson(Ivan,Lesson.Math,studentList);
     }
