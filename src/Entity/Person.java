@@ -1,10 +1,15 @@
 package Entity;
 
-public abstract class Person {
+public abstract class Person implements Skill {
 
    private String name;
    private Integer age;
 
+  public Person(String name, Integer age){
+
+      this.name = name;
+      this.age = age;
+  }
     public String getName() {
         return name;
     }

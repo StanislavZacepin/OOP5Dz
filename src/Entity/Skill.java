@@ -1,7 +1,9 @@
 package Entity;
 
 public interface Skill {
-
-     void printSkill();
+     String skill = new String();
+     default void printSkill(String skill){
+          System.out.println(skill);
+     }
 
 }

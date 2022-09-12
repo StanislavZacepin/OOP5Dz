@@ -1,4 +1,7 @@
 package Model;
 
-public class Student {
+import Entity.Person;
+
+public class Student extends Person {
+
 }

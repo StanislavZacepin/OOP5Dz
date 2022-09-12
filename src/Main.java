@@ -1,3 +1,5 @@
+import Model.Teacher;
+
 public class Main {
     public static void main(String[] args) {
 //        Создать калькулятор для работы с рациональными и комплексными числами
@@ -10,6 +12,6 @@ public class Main {
 //        Создать информационную систему позволяющую работать с сотрудниками некой компании
 //        \ студентами вуза \ учениками школы
 
-
+        Teacher Ivan = new Teacher();
     }
 }
