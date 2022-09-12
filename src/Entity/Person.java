@@ -3,7 +3,7 @@ package Entity;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Person <T> implements Skill {
+public abstract class Person  implements Skill {
 
    private String name;
    private Integer age;

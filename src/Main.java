@@ -1,13 +1,10 @@
 import Entity.Lesson;
-import Entity.Skill;
+import Entity.Person;
+import Model.Student;
 import Model.Teacher;
+import view.Print;
 
-import java.awt.geom.Area;
-import java.sql.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-
 import java.util.List;
 
 public class Main {
@@ -32,10 +29,17 @@ public class Main {
 
         Teacher Sergey = new Teacher("Sergey",34,Lesson.Russian );
 
-        List<Teacher> teacherList = Arrays.asList(Ivan,Den,Oleg,Dima,Sergey);
+        List<Person> teacherList = Arrays.asList(Ivan,Den,Oleg,Dima,Sergey);
+        System.out.println("____________________Учетиля_______________________");
+        Print.PrintList(teacherList);
 
-        for (Teacher teacher : teacherList) {
-            teacher.printSkill();
-        }
+        Student _dimaS = new Student("Dima",15);
+        Student _olegS = new Student("Oleg",15);
+        Student _denS = new Student("Den",15);
+        Student _ivan = new Student("Ivan",15);
+
+        List<Person> studentList = Arrays.asList(_dimaS,_olegS,_denS,_ivan);
+        System.out.println("____________________Студенты_______________________");
+        Print.PrintList(studentList);
     }
 }
