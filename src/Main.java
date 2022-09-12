@@ -1,5 +1,6 @@
 import Entity.Lesson;
 import Entity.Person;
+import Model.ClassLesson;
 import Model.Student;
 import Model.Teacher;
 import view.Print;
@@ -41,5 +42,7 @@ public class Main {
         List<Person> studentList = Arrays.asList(_dimaS,_olegS,_denS,_ivan);
         System.out.println("____________________Студенты_______________________");
         Print.PrintList(studentList);
+
+        ClassLesson classMath = new ClassLesson(Ivan,Lesson.Math,studentList);
     }
 }
