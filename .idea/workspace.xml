@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f47c6a5-47a5-475f-87df-dc047d893f81" name="Changes" comment="" />
+    <list default="true" id="3f47c6a5-47a5-475f-87df-dc047d893f81" name="Changes" comment="Рефакторинг кода. Добавления распичатки двух методов заместо одного. Под Student и  Teacher. И изминения списков . Иначе в клас заместо список студентов можно будет дбавить список учителей">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/ClassLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ClassLesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Print.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Efak4MTe3jWqUu8M3bGOMFRQfH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,7 +44,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/777/IdeaProjects/OOP4Dz",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -31,6 +60,77 @@
       <option name="presentableId" value="Default" />
       <updated>1662989233623</updated>
     </task>
+    <task id="LOCAL-00001" summary="Start">
+      <created>1662989385410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662989385410</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Создания абстрактоного класса  Человек">
+      <created>1662991047939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662991047939</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Создания интерфейса умений">
+      <created>1662991195932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662991195932</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Добавления двух классов Учитель и студент">
+      <created>1662991513703</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662991513703</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Добавления Конструктора для класса Person">
+      <created>1662994369158</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662994369158</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Рефакторинг кода">
+      <created>1662995187822</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662995187822</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Рефакторинг кода Создания учителей. Опять выводит эроглефы">
+      <created>1662998720338</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662998720338</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Вывод на консоль">
+      <created>1663004862113</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663004862113</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Создания Класса урока иметодов для обнавления учителя добавления  и удаления учиников">
+      <created>1663006252680</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663006252680</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Рефакторинг кода. Добавления распичатки двух методов заместо одного. Под Student и  Teacher. И изминения списков . Иначе в клас заместо список студентов можно будет дбавить список учителей">
+      <created>1663006619451</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663006619451</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -43,5 +143,29 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start" />
+    <MESSAGE value="Создания абстрактоного класса  Человек" />
+    <MESSAGE value="Создания интерфейса умений" />
+    <MESSAGE value="Добавления двух классов Учитель и студент" />
+    <MESSAGE value="Добавления Конструктора для класса Person" />
+    <MESSAGE value="Рефакторинг кода" />
+    <MESSAGE value="Рефакторинг кода Создания учителей. Опять выводит эроглефы" />
+    <MESSAGE value="Вывод на консоль" />
+    <MESSAGE value="Создания Класса урока иметодов для обнавления учителя добавления  и удаления учиников" />
+    <MESSAGE value="Рефакторинг кода. Добавления распичатки двух методов заместо одного. Под Student и  Teacher. И изминения списков . Иначе в клас заместо список студентов можно будет дбавить список учителей" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг кода. Добавления распичатки двух методов заместо одного. Под Student и  Teacher. И изминения списков . Иначе в клас заместо список студентов можно будет дбавить список учителей" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
