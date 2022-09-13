@@ -5,6 +5,7 @@ import Model.Student;
 import Model.Teacher;
 import view.Print;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -37,10 +38,15 @@ public class Main {
         Student _dimaS = new Student("_Dima",15);
         Student _olegS = new Student("_Oleg",15);
         Student _denS = new Student("_Den",15);
-        Student _ivan = new Student("_Ivan",15);
-        Student _olga = new Student("_Olga",15);
+        Student _ivanS = new Student("_Ivan",15);
+        Student _olgaS = new Student("_Olga",15);
 
-        List<Student> studentList = Arrays.asList(_dimaS,_olegS,_denS,_ivan);
+        List<Student> studentList = new ArrayList<>();
+        studentList.add(_ivanS);
+        studentList.add(_olegS);
+        studentList.add(_denS);
+        studentList.add(_dimaS);
+
         System.out.println("____________________Студенты_______________________");
         Print.PrintListStudent(studentList);
 
@@ -50,8 +56,8 @@ public class Main {
         System.out.println("___________________________________________________");
 
 
-        classMath.AddClassLessonStudent(_olga);
-        classMath.DellClassLessonStudent(_ivan);
+        classMath.getStudents().remove(_ivanS);
+        classMath.getStudents().add(_olgaS);
         Print.PrintClassLesson(classMath);
     }
 }

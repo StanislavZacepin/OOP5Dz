@@ -18,21 +18,13 @@ public class ClassLesson {
         this.students = students;
     }
 
-    public void AddClassLessonStudent(Student student) {
-        this.students.add(student);
-    }
 
-    public void DellClassLessonStudent(Student student) {
-        this.students.remove(student);
-    }
 
     public void UpdateClassLessonTeacher(Teacher teacher) {
         this.teacher = teacher;
     }
 
-    public void DellClassLessonTeacher(Teacher teacher) {
-        students.remove(teacher);
-    }
+
 
     public Teacher getTeacher() {
         return teacher;

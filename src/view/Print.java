@@ -19,7 +19,7 @@ public class Print {
         }
     }
     public  static  void PrintClassLesson(ClassLesson classLesson){
-        System.out.println(classLesson.getLesson()+" Учитель - "+classLesson.getTeacher().getName()+" Учиники: ");
+        System.out.println(classLesson+" Учитель - "+classLesson.getTeacher().getName()+" Учиники: ");
         for (Student student : classLesson.getStudents()) {
             System.out.println(student.getName());
         }

@@ -23,6 +23,6 @@ public class Teacher extends Person {
 
     @Override
     public void printSkill() {
-        System.out.println("Меня зовут "+this.getName()+". Я учитель "+this.lesson.toString());
+        System.out.println("Меня зовут "+this.getName().toString()+". Я учитель "+this.lesson.toString());
     }
 }
